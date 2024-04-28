@@ -1,0 +1,14 @@
+.fb, .sb {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.fb {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.sb {
+    background-color: rgb(231, 231, 106);
+}
