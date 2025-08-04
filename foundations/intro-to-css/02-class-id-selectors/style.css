@@ -1,0 +1,19 @@
+.salmon {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgb(206, 142, 153);
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#dabudee {
+    color: rgb(10,10,200);
+    font-size: 36px;
+}
+
+#goblin {
+    background-color: rgb(10,150,20);
+    font-size: 24px;
+    font-weight: 800;
+}
