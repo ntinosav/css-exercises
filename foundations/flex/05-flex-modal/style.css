@@ -20,6 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* My rules */
+  display: flex;
+  padding: 20px 10px;
 }
 
 .icon {
@@ -67,3 +70,36 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* My rules */
+
+.icon {
+  flex-shrink: 0;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.modal-main {
+  display: flex;
+}
+
+
+.header {
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.close-button {
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 10px;;
+}
+
+/* .message {
+  flex-direction: column;
+} */
