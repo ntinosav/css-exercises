@@ -10,6 +10,26 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* My rules */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* My rules */
+.plants {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.plants > div {
+  text-align: center;
+  justify-content: center;
+  flex-basis: 200px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
