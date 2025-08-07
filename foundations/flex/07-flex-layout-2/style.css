@@ -2,12 +2,21 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  /* My Rules */
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
+  /* My Rules */
   color: white;
+  font-size: xx-large;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .footer {
@@ -20,10 +29,63 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+
+/* My Rules */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+
+}
+
+.sidebar {
+  padding-left: 20px;
+}
+
+.footer {
+  justify-self: flex-end;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.cards {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 350px;
+  min-height: 150px;
+  padding: 10px 10px 5px 10px;
 }
