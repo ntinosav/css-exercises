@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* My rules */
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
 }
 
 .profile-image {
@@ -45,4 +49,26 @@ a {
 
 ul {
   list-style-type: none;
+  /* My rules */
+  display: flex;
+  padding-left: 0;
+}
+
+
+/* My rules */
+.header-left {
+  display: flex;
+  margin-right: auto;
+  gap: 12px;
+}
+
+.header-right {
+  display: flex;
+  /* Next one seems redundant, since i've put margin-right:auto to the left-side */
+  margin-left: auto;
+  gap: 12px;
+}
+
+ul li {
+  margin-right: 12px;
 }
